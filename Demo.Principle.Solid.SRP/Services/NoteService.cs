@@ -1,6 +1,7 @@
 ﻿using Demo.Principle.Solid.SRP.Entities;
 using Demo.Principle.Solid.SRP.Repositories;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Demo.Principle.Solid.SRP.Services
 {
@@ -22,6 +23,13 @@ namespace Demo.Principle.Solid.SRP.Services
             };
 
             _noteRepository.AddNote(note);
+        }
+
+        public bool VerifyIfNotesRegister(int studentId)
+        {
+            var notes = _noteRepository.GetNotesByStudent(studentId);
+
+            return notes.Any();
         }
 
         public IList<Note> GetNoteByStudent(int studentId) => _noteRepository.GetNotesByStudent(studentId);

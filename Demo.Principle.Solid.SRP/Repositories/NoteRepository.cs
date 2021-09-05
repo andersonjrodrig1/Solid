@@ -14,7 +14,7 @@ namespace Demo.Principle.Solid.SRP.Repositories
             _noteDao = new NoteDao();
         }
 
-        public void AddNote(Note note) => _noteDao.Add(note);
+        public void AddNote(Note note) => _noteDao.notes.Add(note);
 
         public IList<Note> GetNotesByStudent(int studentId)
         {

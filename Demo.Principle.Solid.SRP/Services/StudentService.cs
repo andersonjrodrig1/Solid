@@ -13,17 +13,18 @@ namespace Demo.Principle.Solid.SRP.Services
             _studentRepository = new StudentRepository();
         }
 
-        public void AddStudent(int studentId, string name)
+        public void AddStudent(int id, string name)
         {
             var student = new Student
             {
-                Id = studentId,
+                Id = id,
                 Name = name
             };
 
             _studentRepository.AddStudent(student);
         }
 
+        public Student GetStudentById(int id) => _studentRepository.GetStudentById(id);
         public IList<Student> GetStudents() => _studentRepository.GetStudents();
     }
 }
