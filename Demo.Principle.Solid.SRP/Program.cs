@@ -147,10 +147,7 @@ namespace Demo.Principle.Solid.SRP
             }
         }
 
-        private static void CloseSession()
-        {
-            Console.WriteLine("\nPrograma finalizado.\n");
-        }
+        private static void CloseSession() => Console.WriteLine("\nPrograma finalizado.\n");
 
         private static void InvalidOption()
         {

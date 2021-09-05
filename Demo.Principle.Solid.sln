@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4- Interface Segregation Pr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5- Dependency Inversion Principle", "5- Dependency Inversion Principle", "{328BF8E7-8733-4D77-833D-B62799919711}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Principle.Solid.OCP", "Demo.Principle.Solid.OCP\Demo.Principle.Solid.OCP.csproj", "{DAC99C69-BEBD-4096-BF5A-736E4C4F37F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,12 +27,17 @@ Global
 		{7B543A0C-D806-4C04-9B4F-6E7F4EB6F8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B543A0C-D806-4C04-9B4F-6E7F4EB6F8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B543A0C-D806-4C04-9B4F-6E7F4EB6F8CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC99C69-BEBD-4096-BF5A-736E4C4F37F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC99C69-BEBD-4096-BF5A-736E4C4F37F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC99C69-BEBD-4096-BF5A-736E4C4F37F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC99C69-BEBD-4096-BF5A-736E4C4F37F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7B543A0C-D806-4C04-9B4F-6E7F4EB6F8CD} = {CDE7CFC5-FDD7-47C8-B137-AC83E83A8977}
+		{DAC99C69-BEBD-4096-BF5A-736E4C4F37F0} = {06155F67-EDFB-43BF-9704-3B967E45C239}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {78614CEE-BDC3-4FA3-8565-F4E0BA04D8FF}
