@@ -6,7 +6,7 @@ Projeto criado para fins de aprendizado dos principios do S.O.L.I.D..
 
 2- Open Closed Principle -> Principio do aberto/fechado, onde classes, módulos, funções, etc devem estar abertar para ampliações e fechada para alterações, podemos alterar o comportamento através de herança, inteface ou composição, mas não podemos permitir abertura para pequenas alterações.
 
-3- Liskov Substitution Principle
+3- Liskov Substitution Principle -> Subclasses devem ser substituidas pela classe base, classe base possa ser substituida por qualquer uma das subclasses, ter cuidado no uso da herança, que deve ser usada de acordo com o contexto. (Se S é um subtipo de T, então os objetos do tipo T podem ser substituídos pelos objetos de tipo S sem que seja necessário alterar as propriedades deste programa)
 
 4- Interface Segregation Principle
 
